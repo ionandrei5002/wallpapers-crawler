@@ -1,0 +1,13 @@
+[package]
+name = "wallpapers-crawler"
+version = "0.1.0"
+authors = ["andrei"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10.0-alpha.2", features = ["blocking"] }
+tokio = "0.2.0-alpha.6"
+serde_json = "1.0.44"
+rand = "0.7.2"
